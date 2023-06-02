@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "root",
+    "password": "",
+    "database": "todos",
+    "host": "34.143.248.199",
+    "dialect": "mysql"
+  },
+  "test": {
+    "username": "root",
+    "password": "",
+    "database": "todos",
+    "host": "34.143.248.199",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "root",
+    "password": "",
+    "database": "todos",
+    "host": "34.143.248.199",
+    "dialect": "mysql"
+  }
+}
