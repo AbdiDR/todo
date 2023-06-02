@@ -182,7 +182,6 @@ const deleteAll = async (req, res) => {
 
 module.exports = {
   addTodo,
-  getAll,
   getByuid,
   putByid,
   deleteByid,
