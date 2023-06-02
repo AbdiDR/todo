@@ -72,7 +72,7 @@ const getByuid = async (req, res) => {
 const putByid = async (req, res) => {
   try {
     const user = req.user;
-    const { title, status } = req.body;
+    const {status} = req.body;
     const id = req.params.id;
 
     if (!user) {
@@ -91,8 +91,8 @@ const putByid = async (req, res) => {
     }
     await Todos.update(
       {
-        title,
-        status,
+        title: todo.title,
+        status: status,
       },
       {
         where: { id },
